@@ -1,0 +1,13 @@
+CREATE TABLE `users` (
+  `id` bigint(20) PRIMARY KEY AUTO_INCREMENT,
+  `full_name` varchar(128) NOT NULL,
+  `avatar`  varchar(255),
+  `email` varchar(128) NOT NULL UNIQUE,
+  `password` varchar(255) NOT NULL,
+  `age` int NOT NULL DEFAULT 0,
+  `role` varchar(10) NOT NULL,
+  `ref_token` varchar(255),
+  `created_at` timestamp NOT NULL DEFAULT (CURRENT_TIMESTAMP),
+  `updated_at` datetime,
+  `deleted_at` datetime DEFAULT null
+);

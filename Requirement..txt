@@ -1,0 +1,25 @@
+Chung
+1. Lay danh sach book theo author
+2. Lay danh sach book theo title
+3. lấy danh sách theo category
+4. Lấy danh sách theo Rating
+    vd: lấy sách hơn 3*
+
+7. Lấy thông tin chi tiết(GetByID)
+
+5. Bình luận sách
+6. Rating sách
+8. Reply bình luận người khác
+
+
+User:
+1. Login, Register
+2. Update account
+3. Upload avatar
+4. Update user (admin)
+
+Luu y:
+
+- luc insert vo db: yyyy-mm-dd
+
+- tu gorm xuong time: RFC 2021-07-08T00:00:00+07:00
