@@ -3,15 +3,15 @@ package http
 import (
 	"strings"
 
-	"github.com/auth_service/config"
-	"github.com/auth_service/delivery/http/v1/auth"
+	"github.com/cnson19700/auth_service/config"
+	"github.com/cnson19700/auth_service/delivery/http/v1/auth"
 
-	//"github.com/auth_service/delivery/http/auth"
+	//"github.com/cnson19700/auth_service/delivery/http/auth"
 	"github.com/cnson19700/pkg/middleware"
 	"github.com/labstack/echo/v4"
 
-	"github.com/auth_service/repository"
-	"github.com/auth_service/usecase"
+	"github.com/cnson19700/auth_service/repository"
+	"github.com/cnson19700/auth_service/usecase"
 )
 
 // NewHTTPHandler .

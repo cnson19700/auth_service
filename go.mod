@@ -1,4 +1,4 @@
-module github.com/auth_service
+module github.com/cnson19700/auth_service
 
 // +heroku goVersion go1.17
 go 1.17

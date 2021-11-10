@@ -3,7 +3,7 @@ package user
 import (
 	"context"
 
-	"github.com/auth_service/model"
+	"github.com/cnson19700/auth_service/model"
 )
 
 type Repository interface {

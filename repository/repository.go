@@ -3,7 +3,7 @@ package repository
 import (
 	"context"
 
-	"github.com/auth_service/repository/user"
+	"github.com/cnson19700/auth_service/repository/user"
 	"gorm.io/gorm"
 )
 

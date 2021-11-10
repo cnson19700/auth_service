@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	"github.com/auth_service/model"
+	"github.com/cnson19700/auth_service/model"
 	"github.com/pkg/errors"
 	"gorm.io/gorm"
 )

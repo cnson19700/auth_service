@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/auth_service/util/myerror"
+	"github.com/cnson19700/auth_service/util/myerror"
 )
 
 func CheckImage(file *multipart.FileHeader) (string, error) {

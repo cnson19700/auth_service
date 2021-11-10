@@ -3,7 +3,7 @@ package auth
 import (
 	"context"
 
-	"github.com/auth_service/model"
+	"github.com/cnson19700/auth_service/model"
 )
 
 type IUsecase interface {

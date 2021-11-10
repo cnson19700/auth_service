@@ -3,11 +3,11 @@ package auth
 import (
 	"context"
 
-	"github.com/auth_service/config"
-	"github.com/auth_service/model"
-	"github.com/auth_service/package/auth"
-	checkform "github.com/auth_service/package/checkForm"
-	"github.com/auth_service/util/myerror"
+	"github.com/cnson19700/auth_service/config"
+	"github.com/cnson19700/auth_service/model"
+	"github.com/cnson19700/auth_service/package/auth"
+	checkform "github.com/cnson19700/auth_service/package/checkForm"
+	"github.com/cnson19700/auth_service/util/myerror"
 	"github.com/cnson19700/pkg/middleware"
 )
 

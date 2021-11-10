@@ -3,7 +3,7 @@ package pagination
 import (
 	"strconv"
 
-	checkform "github.com/auth_service/package/checkForm"
+	checkform "github.com/cnson19700/auth_service/package/checkForm"
 
 	"github.com/labstack/echo/v4"
 )
