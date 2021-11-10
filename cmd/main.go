@@ -5,13 +5,13 @@ import (
 	"net"
 	"time"
 
-	"github.com/Auth-Service/client/mysql"
-	"github.com/Auth-Service/config"
-	"github.com/Auth-Service/usecase"
+	"github.com/auth_service/client/mysql"
+	"github.com/auth_service/config"
+	"github.com/auth_service/usecase"
 
-	serviceHttp "github.com/Auth-Service/delivery/http"
-	"github.com/Auth-Service/migration"
-	"github.com/Auth-Service/repository"
+	serviceHttp "github.com/auth_service/delivery/http"
+	"github.com/auth_service/migration"
+	"github.com/auth_service/repository"
 )
 
 func main() {

@@ -1,5 +1,4 @@
-module github.com/Auth-Service
-
+module github.com/auth_service
 
 // +heroku goVersion go1.17
 go 1.17

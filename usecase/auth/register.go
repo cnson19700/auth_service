@@ -4,10 +4,10 @@ import (
 	"context"
 	"log"
 
-	"github.com/Auth-Service/model"
-	"github.com/Auth-Service/package/auth"
-	checkform "github.com/Auth-Service/package/checkForm"
-	"github.com/Auth-Service/util/myerror"
+	"github.com/auth_service/model"
+	"github.com/auth_service/package/auth"
+	checkform "github.com/auth_service/package/checkForm"
+	"github.com/auth_service/util/myerror"
 )
 
 type RegisterRequest struct {

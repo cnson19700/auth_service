@@ -6,8 +6,8 @@ import (
 
 	"github.com/pressly/goose"
 
-	"github.com/Auth-Service/client/mysql"
-	"github.com/Auth-Service/config"
+	"github.com/auth_service/client/mysql"
+	"github.com/auth_service/config"
 )
 
 func Up() {

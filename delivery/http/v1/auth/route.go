@@ -1,8 +1,8 @@
 package auth
 
 import (
-	"github.com/Auth-Service/usecase"
-	"github.com/Auth-Service/usecase/auth"
+	"github.com/auth_service/usecase"
+	"github.com/auth_service/usecase/auth"
 	"github.com/labstack/echo/v4"
 )
 

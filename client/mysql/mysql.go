@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/Auth-Service/config"
+	"github.com/auth_service/config"
 	"github.com/cnson19700/pkg/logger"
 	"github.com/cnson19700/pkg/utils"
 	"gorm.io/driver/mysql"

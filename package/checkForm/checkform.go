@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Auth-Service/package/auth"
-	errmsg "github.com/Auth-Service/package/logMessages"
-	"github.com/Auth-Service/package/namestand"
+	"github.com/auth_service/package/auth"
+	errmsg "github.com/auth_service/package/logMessages"
+	"github.com/auth_service/package/namestand"
 
 	"github.com/labstack/echo/v4"
 )

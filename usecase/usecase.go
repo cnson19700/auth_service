@@ -1,8 +1,8 @@
 package usecase
 
 import (
-	"github.com/Auth-Service/repository"
-	"github.com/Auth-Service/usecase/auth"
+	"github.com/auth_service/repository"
+	"github.com/auth_service/usecase/auth"
 )
 
 type UseCase struct {

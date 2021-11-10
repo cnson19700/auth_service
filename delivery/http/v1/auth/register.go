@@ -3,7 +3,7 @@ package auth
 import (
 	"errors"
 
-	"github.com/Auth-Service/usecase/auth"
+	"github.com/auth_service/usecase/auth"
 	"github.com/cnson19700/pkg/apperror"
 	"github.com/cnson19700/pkg/utils"
 	"github.com/labstack/echo/v4"
