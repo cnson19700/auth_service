@@ -11,7 +11,7 @@ import (
 
 	serviceHttp "github.com/cnson19700/auth_service/delivery/http"
 	"github.com/cnson19700/auth_service/migration"
-	"github.com/cnson19700/auth_service/repository"
+	"github.com/cnson19700/user_service/repository"
 )
 
 func main() {

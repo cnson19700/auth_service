@@ -24,6 +24,8 @@ github.com/chzyer/test v0.0.0-20180213035817-a1ea475d72b1/go.mod h1:Q3SI9o4m/ZMn
 github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDkc90ppPyw=
 github.com/cnson19700/pkg v0.0.0-20211018031701-377617a7e12d h1:fhhNTWiK4zl3gK2cg3YwQoAXBu1xUx/V/L4dVhWhWxg=
 github.com/cnson19700/pkg v0.0.0-20211018031701-377617a7e12d/go.mod h1:FML1SW749FnAl+PJYo9rfuQPoq0uhFV+Q2yI87iO+QI=
+github.com/cnson19700/user_service v0.0.0-20211110070327-5641fe515c4a h1:FkZwjerhvdvYsuXUALPCEfVT72Pi3XoQnPmpdtJtrk4=
+github.com/cnson19700/user_service v0.0.0-20211110070327-5641fe515c4a/go.mod h1:sQbYHocR9zxXldUAQyLjuIOWF8eEnk94rBMgl0KviIA=
 github.com/codegangsta/inject v0.0.0-20150114235600-33e0aa1cb7c0/go.mod h1:4Zcjuz89kmFXt9morQgcfYZAYZ5n8WHjt81YYWIwtTM=
 github.com/coreos/etcd v3.3.10+incompatible/go.mod h1:uF7uidLiAD3TWHmW31ZFd/JWoc32PjwdhPthX9715RE=
 github.com/coreos/go-etcd v2.0.0+incompatible/go.mod h1:Jez6KQU2B/sWsbdaef3ED8NzMklzPG4d5KIOhIy30Tk=

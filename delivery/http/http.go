@@ -10,8 +10,8 @@ import (
 	"github.com/cnson19700/pkg/middleware"
 	"github.com/labstack/echo/v4"
 
-	"github.com/cnson19700/auth_service/repository"
 	"github.com/cnson19700/auth_service/usecase"
+	"github.com/cnson19700/user_service/repository"
 )
 
 // NewHTTPHandler .

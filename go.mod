@@ -21,6 +21,7 @@ require (
 	github.com/DataDog/datadog-go v4.8.2+incompatible // indirect
 	github.com/DataDog/sketches-go v1.2.0 // indirect
 	github.com/Microsoft/go-winio v0.5.0 // indirect
+	github.com/cnson19700/user_service v0.0.0-20211110070327-5641fe515c4a // indirect
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/getsentry/sentry-go v0.11.0 // indirect
 	github.com/go-sql-driver/mysql v1.6.0 // indirect
