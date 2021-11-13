@@ -1,0 +1,7 @@
+DB_MASTER_HOSTS=bwjiunuaw4bkm4hsef42-mysql.services.clever-cloud.com
+
+DB_NAME=bwjiunuaw4bkm4hsef42
+DB_USER=u00lboordwcakwnc
+DB_PASS=zhJqE1ValFCFcgNI2xVg
+DB_MAX_IDLE_CONNECTIONS=10
+DB_MAX_OPEN_CONNECTIONS=44

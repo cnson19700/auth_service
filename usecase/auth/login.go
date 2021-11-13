@@ -4,11 +4,11 @@ import (
 	"context"
 
 	"github.com/cnson19700/auth_service/config"
-	"github.com/cnson19700/user_service/model"
 	"github.com/cnson19700/auth_service/package/auth"
 	checkform "github.com/cnson19700/auth_service/package/checkForm"
 	"github.com/cnson19700/auth_service/util/myerror"
 	"github.com/cnson19700/pkg/middleware"
+	"github.com/cnson19700/user_service/model"
 )
 
 type LoginRequest struct {
