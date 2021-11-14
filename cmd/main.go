@@ -12,16 +12,17 @@ import (
 
 	"github.com/cnson19700/auth_service/client/mysql"
 	"github.com/cnson19700/auth_service/config"
+	"github.com/cnson19700/auth_service/proto"
+	"github.com/soheilhy/cmux"
+	"github.com/swaggo/echo-swagger/example/docs"
+	"google.golang.org/grpc"
+	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
+
 	serviceGRPC "github.com/cnson19700/auth_service/delivery/grpc"
 	serviceHttp "github.com/cnson19700/auth_service/delivery/http"
 	"github.com/cnson19700/auth_service/migration"
 	"github.com/cnson19700/auth_service/usecase"
 	"github.com/cnson19700/user_service/repository"
-
-	"github.com/soheilhy/cmux"
-	"github.com/swaggo/echo-swagger/example/docs"
-	"google.golang.org/grpc"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
 )
 
 func main() {
@@ -40,6 +41,7 @@ func main() {
 	ucase := usecase.New(repo)
 
 	executeServer(repo, ucase)
+
 }
 
 // func executeServer(repo *repository.Repository, ucase *usecase.UseCase) {
@@ -61,6 +63,17 @@ func main() {
 
 // 		log.Printf("Server is running on http://localhost:%s", cfg.Port)
 // 		errs <- h.Start("")
+// 	}()
+
+// 	// grpc
+// 	s := grpc.NewServer()
+
+// 	go func() {
+// 		grpcServ := &serviceGRPC.AuthService{AuthUsecase: ucase.Auth}
+
+// 		proto.RegisterAuthServiceServer(s, grpcServ)
+
+// 		errs <- s.Serve(grpcL)
 // 	}()
 
 // 	log.Println("exit", <-errs)
