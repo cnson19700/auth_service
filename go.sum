@@ -30,6 +30,8 @@ github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e/go.mod h1:nSuG5e5P
 github.com/chzyer/test v0.0.0-20180213035817-a1ea475d72b1/go.mod h1:Q3SI9o4m/ZMnBNeIyt5eFwwo7qiLfzFZmjNmxjkiQlU=
 github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDkc90ppPyw=
 github.com/cnson19700/auth_service v0.0.0-20211111084237-d3ad0cc0d462/go.mod h1:od4zscF7lNUDT3J/wv5XuQPMM0afBhgZjzllV+gJCzQ=
+github.com/cnson19700/book_service v0.0.0-20211113142847-42b4e4d73c93 h1:9ue3vucYp1Lq7DQDq6RbwYktDiQ1ehUBs4CcOcRyYV8=
+github.com/cnson19700/book_service v0.0.0-20211113142847-42b4e4d73c93/go.mod h1:2XOFyFg1u855TSVA3vOnB9/neoRAfo3SJ45mWv8vYSw=
 github.com/cnson19700/pkg v0.0.0-20211018031701-377617a7e12d h1:fhhNTWiK4zl3gK2cg3YwQoAXBu1xUx/V/L4dVhWhWxg=
 github.com/cnson19700/pkg v0.0.0-20211018031701-377617a7e12d/go.mod h1:FML1SW749FnAl+PJYo9rfuQPoq0uhFV+Q2yI87iO+QI=
 github.com/cnson19700/user_service v0.0.0-20211110070327-5641fe515c4a/go.mod h1:sQbYHocR9zxXldUAQyLjuIOWF8eEnk94rBMgl0KviIA=

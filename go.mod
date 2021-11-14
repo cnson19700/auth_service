@@ -4,6 +4,7 @@ module github.com/cnson19700/auth_service
 go 1.17
 
 require (
+	github.com/cnson19700/book_service v0.0.0-20211113142847-42b4e4d73c93
 	github.com/cnson19700/pkg v0.0.0-20211018031701-377617a7e12d
 	github.com/cnson19700/user_service v0.0.0-20211111090801-336f7224ee26
 	github.com/golang-jwt/jwt v3.2.2+incompatible
