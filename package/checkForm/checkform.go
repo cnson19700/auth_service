@@ -107,9 +107,9 @@ func CheckFormatValue(formAtributeName string, value string) (bool, string) {
 		if str == "" || strings.Contains(str, " ") {
 			return false, formAtributeName + appErr.QueryMsg.WrongFomat
 		}
-		if len(str) < 8 {
-			return false, appErr.AuthMsg.Min8Character
-		}
+		// } else if len(str) <= 8 {
+		// 	return false, appErr.AuthMsg.Min8Character
+		// }
 		return true, str
 	default:
 		return true, value
