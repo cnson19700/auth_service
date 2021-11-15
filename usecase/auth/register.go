@@ -4,10 +4,10 @@ import (
 	"context"
 	"log"
 
-	"github.com/cnson19700/user_service/model"
 	"github.com/cnson19700/auth_service/package/auth"
 	checkform "github.com/cnson19700/auth_service/package/checkForm"
 	"github.com/cnson19700/auth_service/util/myerror"
+	"github.com/cnson19700/user_service/model"
 )
 
 type RegisterRequest struct {

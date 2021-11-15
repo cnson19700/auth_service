@@ -20,6 +20,7 @@ type AuthMsg struct {
 	ChangePassFail      string
 	ChangePassOK        string
 	IsHaveBadWord       string
+	Min8Character       string
 }
 
 type FileMsg struct {
@@ -71,6 +72,7 @@ func NewAuthMsg() *AuthMsg {
 		ChangePassFail:      "Change password fail.",
 		ChangePassOK:        "Password change success.",
 		IsHaveBadWord:       " is contain bad word.",
+		Min8Character:       "Password must have at least 8 characters",
 	}
 }
 
@@ -95,13 +97,13 @@ func NewDatabaseMsg() *DatabaseMsg {
 
 func NewQueryMsg() *QueryMsg {
 	return &QueryMsg{
-		PageNotNumber:    "Page param must a number.",
-		IsAdultWrong:     "is_adult value must be 0 - non adult/ 1 - adult.",
-		MinRatingWrong:   "min_rating value must be greater than 0 and lower than 10.",
-		MustBeNumber:     " must be a number.",
-		ResourceNotFound: "The resource you requested could not be found.",
-		StatusWrong:      "Status value must be 0-Comming soon / 1-Release / 2-prohibit.",
-		WrongFomat:       " is wrong format.",
+		PageNotNumber:      "Page param must a number.",
+		IsAdultWrong:       "is_adult value must be 0 - non adult/ 1 - adult.",
+		MinRatingWrong:     "min_rating value must be greater than 0 and lower than 10.",
+		MustBeNumber:       " must be a number.",
+		ResourceNotFound:   "The resource you requested could not be found.",
+		StatusWrong:        "Status value must be 0-Comming soon / 1-Release / 2-prohibit.",
+		WrongFomat:         " is wrong format.",
 		IsNotCommentAuthor: "Comment author is not current user.",
 	}
 }

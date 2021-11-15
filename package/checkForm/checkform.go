@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/cnson19700/auth_service/package/auth"
-	
+
 	errmsg "github.com/cnson19700/auth_service/package/logMessages"
 
 	"github.com/cnson19700/auth_service/package/namestand"
@@ -106,6 +106,9 @@ func CheckFormatValue(formAtributeName string, value string) (bool, string) {
 		str := namestand.FormatText(value, true, true)
 		if str == "" || strings.Contains(str, " ") {
 			return false, formAtributeName + appErr.QueryMsg.WrongFomat
+		}
+		if len(str) < 8 {
+			return false, appErr.AuthMsg.Min8Character
 		}
 		return true, str
 	default:
