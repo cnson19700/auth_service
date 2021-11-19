@@ -51,6 +51,10 @@ type Config struct {
 		Pass    string `envconfig:"REDIS_PASS"`
 		Timeout int    `envconfig:"REDIS_TIMEOUT"`
 	}
+
+	Captcha struct {
+		SecretKey string `envconfig:"CAPTCHA_SECRET_KEY"`
+	}
 }
 
 func init() {

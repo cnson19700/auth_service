@@ -15,6 +15,7 @@ func (r *Route) Register(c echo.Context) error {
 		appError = apperror.AppError{}
 		req      = auth.RegisterRequest{}
 	)
+	req.IP = c.RealIP()
 	if err := c.Bind(&req); err != nil {
 		_ = errors.As(err, &appError)
 

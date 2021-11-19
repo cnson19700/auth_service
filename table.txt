@@ -11,3 +11,4 @@ CREATE TABLE `users` (
   `updated_at` datetime,
   `deleted_at` datetime DEFAULT null
 );
+

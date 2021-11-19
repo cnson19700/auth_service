@@ -96,3 +96,13 @@ func ErrImage(err error) apperror.AppError {
 		Message:   "File is not image",
 	}
 }
+
+func ErrInvalidCaptcha(err error) apperror.AppError {
+	return apperror.AppError{
+		Raw:       err,
+		ErrorCode: 100070,
+		HTTPCode:  http.StatusNotAcceptable,
+		Info:      "Your Captcha is not valid",
+		Message:   "Your Captcha is not valid",
+	}
+}
